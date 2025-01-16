@@ -71,7 +71,9 @@ function Projects() {
             <div className="Title-Divider"></div>
 
             <div className="Projects-Content-Container">
-                <Paper >
+                <Paper 
+                    className="Paper-Container"
+                >
                     <Tabs
                         value={selectedTab}
                         onChange={handleTabChange}
@@ -84,7 +86,7 @@ function Projects() {
                             },
                         }}
                     >
-                        <Tab 
+                        <Tab className="Paper-Tab"
                             label="Data Science Projects" 
                             sx={{
                                 color: selectedTab === 0 ? '#25afda' : 'inherit',
@@ -93,7 +95,7 @@ function Projects() {
                                 fontWeight: selectedTab === 0 ? 'bold' : 'normal'
                             }}
                         />
-                        <Tab 
+                        <Tab className="Paper-Tab"
                             label="Software Projects"
                             sx={{
                                 color: selectedTab === 1 ? '#25afda' : 'inherit',

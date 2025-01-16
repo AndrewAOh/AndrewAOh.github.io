@@ -109,3 +109,22 @@
         width: 100%;
     }
 }
+
+/* Responsive styles for iPhone and small devices */
+@media (max-width: 430px) {
+    .Projects-Content-Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Paper-Container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .Paper-Tab {
+        font-size: 12px !important;
+    }
+
+}
