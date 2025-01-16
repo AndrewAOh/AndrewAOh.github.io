@@ -1,0 +1,55 @@
+/* Outer Container */
+.carousel-container {
+    width: 100%;
+    height: 200px; 
+    display: flex;
+    flex-direction: row;
+}
+
+/* Swiper Container */
+.swiper-container {
+    height: 100%; 
+}
+
+/* Change the color of navigation arrows */
+.swiper-button-next,
+.swiper-button-prev{
+  color: #555859 !important;
+  /* color: #b6babb !important; */
+}
+  
+.swiper-pagination-bullet-active {
+background-color: #25afda !important; /* Green active dot */
+transform: scale(1.5);
+}
+
+/* Individual Slide Styling */
+.carousel-slide {
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: opacity 0.5s ease; /* Smooth opacity transition */
+
+}
+
+.carousel-slide:hover {
+    transform: scale(1.05);
+    filter: brightness(0.9);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive Behavior */
+@media (max-width: 768px) {
+    .swiper-container {
+      width: 100%; /* Allow container to shrink */
+    }
+}

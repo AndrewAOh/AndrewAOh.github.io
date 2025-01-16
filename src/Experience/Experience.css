@@ -1,0 +1,30 @@
+.Experience-Title{
+    font-size: 36px;
+    font-weight: 275;
+}
+
+.Title-Divider {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: 2px;
+    width: 5%;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Work-Card-Container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .Work-Card-Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

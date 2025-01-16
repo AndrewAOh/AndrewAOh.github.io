@@ -1,0 +1,111 @@
+.Projects-Title{
+    font-size: 36px;
+    font-weight: 275;
+}
+
+.Title-Divider {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: 2px;
+    width: 5%;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Projects-Content-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Data-Projects-Content-Container, .Software-Projects-Content-Container {
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+.Data-Projects-Header-Container, .Software-Projects-Header-Container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Projects-Data-Header {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6)),
+        url(../Pictures/Backgrounds/data-background-image.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.Projects-Data-Header h2, .Projects-Software-Header h2 {
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0, 1);
+    font-size: 28px;
+    font-family: "Lora";
+    /* text-decoration: underline; */
+    color: white;
+}
+
+.Projects-Software-Header {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.6)),
+        url(../Pictures/Backgrounds/software-background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.Projects-Data-Card, .Projects-Software-Card {
+    padding-bottom: 10px;
+}
+
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .Projects-Content-Container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .Projects-Data-Header h2, .Projects-Software-Header h2{
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .Data-Projects-Content-Container, .Software-Projects-Content-Container {
+        width: 90%;
+    }
+
+    .Software-Projects-Content-Container {
+        margin-top: 25px;
+    }
+
+    .Projects-Data-Header, .Projects-Software-Header {
+        width: 100%;
+    }
+}
