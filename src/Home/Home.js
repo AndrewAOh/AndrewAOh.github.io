@@ -14,16 +14,13 @@ function Home() {
 
     const descripter_list = [
         "Data Scientist", 1500,
-        "USC Trojan", 1500,
-        "Live to Eat", 1500,
-        "Aspiring Cook", 1500,
-        "Sports Enthusiast", 1500,
-        "Chicken Connoisseur", 1500,
-        "Aspiring Golfer", 1500,
         "Baseball Data Analyst", 1500,
+        "USC Trojan", 1500,
+        "Foodie", 1500,
+        "Aspiring Chef", 1500,
+        "Sports Enthusiast", 1500,
+        "Aspiring Golfer", 1500,
         "Software Engineer", 1500,
-        "Mobile Gamer", 1500,
-        "Ohio State Buckeye Fan", 1500,
         "Web Developer", 1500,
     ]
 

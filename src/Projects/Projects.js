@@ -26,10 +26,14 @@ import Minesweeper from "../Pictures/Project_Cards/Minesweeper.png"
 import PostExchange from "../Pictures/Project_Cards/PostExchange.png"
 import RMP from "../Pictures/Project_Cards/RMP.png"
 
+// Import Post Hog
+import { usePostHog } from 'posthog-js/react'
 
 function Projects() {
     const [color, changeColor] = useState("#ffffff");
     document.body.style.backgroundColor = color;
+
+    const posthog = usePostHog();
 
     const dataProjects = [
         { title: "Advanced Hitter Predictions Project", link: "/projects/Advanced-Hitter-Projections", picture: HitterPredictions},

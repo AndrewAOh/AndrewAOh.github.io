@@ -40,7 +40,7 @@ function NBAPred() {
                     </div>
                     <div className="Link-Gallery-Container">
                         <div className="Gallery-Container">
-                            <button className="Gallery-Button" type="button" onClick={() => setOpen(true)}>
+                            <button className="Gallery-Button" type="button" onClick={() => setOpen(true)} style={{cursor: 'pointer'}}>
                                 Gallery
                             </button>
                             <Lightbox

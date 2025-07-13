@@ -41,6 +41,10 @@ import {
   useLocation
 } from "react-router-dom";
 
+// Import PostHog
+import posthog from 'posthog-js'
+import { PostHogProvider } from 'posthog-js/react'
+
 const usePageTitle = () => {
   const location = useLocation();
 
