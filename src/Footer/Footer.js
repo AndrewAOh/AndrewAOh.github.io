@@ -20,7 +20,7 @@ function Footer() {
                         <a href="mailto:aaoh@usc.edu" target="_blank" rel="noopener noreferrer">
                             <FaEnvelope size={36} title="Email" />
                         </a>
-                        <a href="https://tinyurl.com/andrew-oh-resume" target="_blank" rel="noopener noreferrer">
+                        <a href="https://tinyurl.com/andrewaoh-resume" target="_blank" rel="noopener noreferrer">
                             <FaFileAlt size={36} title="Resume" />
                         </a>
                     </div>
