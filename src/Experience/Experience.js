@@ -24,21 +24,21 @@ function Experience() {
         },
         {
           id: 2,
-          link: "https://www.cathartichealth.org/",
-          company: "Cathartic Health",
-          logo: catharticLogo,
-          position: "Operations Analyst",
-          dates: "Feb 2024 - Present",
-          bgColor: "#331845", // Dark purple
-        },
-        {
-          id: 3,
           link: "https://www.cas.org/",
           company: "CAS",
           logo: casLogo,
           position: "Data Analytics & Insights Intern",
-          dates: "May 2024 - Aug 2024",
+          dates: "May 2024 - Aug 2024, May 2025 - Aug 2025",
           bgColor: "#00008B", // Dark blue
+        },
+        {
+          id: 3,
+          link: "https://www.cathartichealth.org/",
+          company: "Cathartic Health",
+          logo: catharticLogo,
+          position: "Operations Analyst",
+          dates: "Feb 2024 - May 2025",
+          bgColor: "#331845", // Dark purple
         },
         
       ];

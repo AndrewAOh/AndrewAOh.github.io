@@ -70,7 +70,7 @@ function Projects() {
 
     return (
         <div className="Projects-Page">
-            <h1 className="Projects-Title"> Past Projects sds </h1>
+            <h1 className="Projects-Title"> Past Projects </h1>
 
             <div className="Title-Divider"></div>
 
