@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import "./WorkCard.css";
 
 function WorkCard({ id, link, company, logo, position, dates, bgColor }) {

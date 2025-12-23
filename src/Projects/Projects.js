@@ -1,5 +1,5 @@
 // IMPORT STATEMENTS
-import React, { useState, useEffect  } from "react";
+import { useState  } from "react";
 import './Projects.css';
 import Carousel from '../Components/Carousel/Carousel'
 import Paper from '@mui/material/Paper';
@@ -29,15 +29,17 @@ import PostExchange from "../Pictures/Project_Cards/PostExchange.png"
 import RMP from "../Pictures/Project_Cards/RMP.png"
 
 // Import Post Hog
-import { usePostHog } from 'posthog-js/react'
+// import { usePostHog } from 'posthog-js/react'
 
 function Projects() {
-    const [color, changeColor] = useState("#ffffff");
+    const [color] = useState("#ffffff");
     document.body.style.backgroundColor = color;
 
-    const posthog = usePostHog();
+    // const posthog = usePostHog();
 
     const dataProjects = [
+        { title: "Chemical Reaction Component Recognition", link: "/projects/Chemical-Reaction-Component-Recognition", picture: CASProject},
+        { title: "LifeScience Entity Recognition", link: "/projects/GenAI-LifeScience-Recognition", picture: CAS2025},
         { title: "Advanced Hitter Predictions Project", link: "/projects/Advanced-Hitter-Projections", picture: HitterPredictions},
         { title: "Transfer Portal Analysis", link: "/projects/Transfer-Portal-Analysis", picture: TransferPortal},
         { title: "NBA Game Outcome Projection", link: "/projects/NBA-Game-Outcome-Projection", picture: NBAPred},
@@ -47,8 +49,6 @@ function Projects() {
         { title: "Pitcher Location+", link: "/projects/Pitcher-Location+", picture: LocationPlus},
         { title: "Scouting Report Data Dashboard", link: "/projects/Scouting-Report-Data-Dashboard", picture: ScoutingReport},
         { title: "Swing Decision Analysis", link: "/projects/Swing-Decision-Analysis", picture: SwingDecision},
-        { title: "Chemical Reaction Component Recognition", link: "/projects/Chemical-Reaction-Component-Recognition", picture: CASProject},
-        { title: "LifeScience Entity Recognition", link: "/projects/GenAI-LifeScience-Recognition", picture: CAS2025},
         { title: "CineScore Movie Sentiment Analysis", link: "/projects/CineScore", picture: CineScore},
     ];
 

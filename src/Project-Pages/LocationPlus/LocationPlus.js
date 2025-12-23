@@ -1,5 +1,5 @@
 // IMPORT STATEMENTS
-import React, { useState, useEffect  } from "react";
+import React, { useState  } from "react";
 import '../project_styles.css';
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -15,7 +15,7 @@ import Pic2 from "../../Pictures/Project_Pictures/Location2.png"
 import Pic3 from "../../Pictures/Project_Pictures/Location3.png"
 
 function LocationPlus() {
-    const [color, changeColor] = useState("#ffffff");
+    const [color] = useState("#ffffff");
     document.body.style.backgroundColor = color;
 
     const [open, setOpen] = React.useState(false);

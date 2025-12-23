@@ -1,5 +1,5 @@
 // IMPORT STATEMENTS
-import React, { useState, useEffect  } from "react";
+import React, { useState  } from "react";
 import '../project_styles.css';
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -13,7 +13,7 @@ import ProjectPicture from "../../Pictures/Project_Cards/advanced-hitter-pred-ca
 import Pic1 from "../../Pictures/Project_Pictures/HitterProj1.png"
 
 function HittingProjection() {
-    const [color, changeColor] = useState("#ffffff");
+    const [color] = useState("#ffffff");
     document.body.style.backgroundColor = color;
 
     const [open, setOpen] = React.useState(false);

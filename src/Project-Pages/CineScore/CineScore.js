@@ -1,5 +1,5 @@
 // IMPORT STATEMENTS
-import React, { useState, useEffect  } from "react";
+import React, { useState  } from "react";
 import '../project_styles.css';
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -14,7 +14,7 @@ import Pic1 from "../../Pictures/Project_Pictures/cinescore_ranking.png"
 import Pic2 from "../../Pictures/Project_Pictures/review_sentiment_example.png"
 
 function CineScore() {
-    const [color, changeColor] = useState("#ffffff");
+    const [color] = useState("#ffffff");
     document.body.style.backgroundColor = color;
 
     const [open, setOpen] = React.useState(false);

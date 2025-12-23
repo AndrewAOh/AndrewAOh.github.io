@@ -1,5 +1,5 @@
 // IMPORT STATEMENTS
-import React, { useState, useEffect  } from "react";
+import { useState  } from "react";
 import './Experience.css';
 import WorkCard from '../Components/WorkCard/WorkCard'
 

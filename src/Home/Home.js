@@ -1,14 +1,18 @@
 // IMPORT STATEMENTS
 // import * as React from "react";
 import './Home.css';
-import Carousel from '../Components/Carousel/Carousel'
+// import Carousel from '../Components/Carousel/Carousel'
 import Wordmark from "../Pictures/Andrew_Oh.png"
-import React, { useState, useEffect  } from "react";
+import  { useState  } from "react";
 import { TypeAnimation } from 'react-type-animation';
+
+// Import Post Hog
+// import { usePostHog } from 'posthog-js/react'
 
 // Pictures
 
 function Home() {
+    // const posthog = usePostHog();
     const [color, changeColor] = useState("#333333");
     document.body.style.backgroundColor = color;
 

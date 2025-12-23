@@ -1,12 +1,16 @@
 // IMPORT STATEMENTS
-import React, { useState, useEffect  } from "react";
+import { useState  } from "react";
 import './About.css';
 
 // Import pictures
 import cellPicture from "../Pictures/cell_picture.JPG"
 
+// Import Post Hog
+// import { usePostHog } from 'posthog-js/react'
+
 function About() {
-    const [color, changeColor] = useState("#ffffff");
+    // const posthog = usePostHog();
+    const [color] = useState("#ffffff");
     document.body.style.backgroundColor = color;
     
     return (

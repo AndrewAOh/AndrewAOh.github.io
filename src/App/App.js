@@ -33,19 +33,19 @@ import LifeScience from "../Project-Pages/LifeScience/LifeScience"
 import CineScore from "../Project-Pages/CineScore/CineScore"
 
 // React Imports
-import ReactDOM from "react-dom/client";
-import React, { useEffect, useState } from 'react';
+// import ReactDOM from "react-dom/client";
+import { useEffect } from 'react';
 import {
   Routes, 
   Route,
-  Link,
+  // Link,
   BrowserRouter as Router,
   useLocation
 } from "react-router-dom";
 
 // Import PostHog
-import posthog from 'posthog-js'
-import { PostHogProvider } from 'posthog-js/react'
+// import posthog from 'posthog-js'
+// import { PostHogProvider } from 'posthog-js/react'
 
 const usePageTitle = () => {
   const location = useLocation();

@@ -1,7 +1,7 @@
 // IMPORT STATEMENTS
 // import * as React from "react";
-import React, { useState, useEffect } from "react";
-import { NavLink, Link, useLocation } from "react-router-dom";
+import { useState } from "react";
+import { NavLink, Link } from "react-router-dom";
 import './Header.css';
 import logo from "../Pictures//Logos/AOh.png"
 
