@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe3d6668.css",
-    "main.js": "/static/js/main.58864849.js",
+    "main.css": "/static/css/main.7f22cbd7.css",
+    "main.js": "/static/js/main.7c141b6a.js",
     "static/js/453.20f75683.chunk.js": "/static/js/453.20f75683.chunk.js",
     "static/media/CaleCafe2.png": "/static/media/CaleCafe2.ea747a8d1c5681c92a2b.png",
     "static/media/software-background-image.png": "/static/media/software-background-image.9e7f45f186b599f8812d.png",
@@ -84,12 +84,12 @@
     "static/media/Andrew_Oh.png": "/static/media/Andrew_Oh.c44575359e1ac78f3033.png",
     "static/media/CAS_Logo.jpeg": "/static/media/CAS_Logo.5778cce9c7b2e8c1c2b6.jpeg",
     "index.html": "/index.html",
-    "main.fe3d6668.css.map": "/static/css/main.fe3d6668.css.map",
-    "main.58864849.js.map": "/static/js/main.58864849.js.map",
+    "main.7f22cbd7.css.map": "/static/css/main.7f22cbd7.css.map",
+    "main.7c141b6a.js.map": "/static/js/main.7c141b6a.js.map",
     "453.20f75683.chunk.js.map": "/static/js/453.20f75683.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe3d6668.css",
-    "static/js/main.58864849.js"
+    "static/css/main.7f22cbd7.css",
+    "static/js/main.7c141b6a.js"
   ]
 }

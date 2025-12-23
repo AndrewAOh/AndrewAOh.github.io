@@ -10,7 +10,7 @@ import casLogo from "../Logo/CAS_Logo.jpeg"
 import catharticLogo from "../Logo/Cathartic_Logo.png"
 
 function Experience() {
-  const [color, changeColor] = useState("#ffffff");
+  const [color] = useState("#ffffff");
     document.body.style.backgroundColor = color;
     const workItems = [
         {

@@ -38,7 +38,7 @@ function BeachPlease() {
             <div className="Project-Content">
                 <div className="Picture-Side-Container">
                     <div className="Picture-Container">
-                        <img className="Project-Picture" src={ProjectPicture} alt="Project Picture"></img>
+                        <img className="Project-Picture" src={ProjectPicture} alt="Project Card"></img>
                     </div>
                     <div className="TextNote">
                         <i> Group Project w/ 2 Others</i>

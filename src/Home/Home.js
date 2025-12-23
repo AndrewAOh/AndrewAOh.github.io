@@ -13,7 +13,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 function Home() {
     // const posthog = usePostHog();
-    const [color, changeColor] = useState("#333333");
+    const [color] = useState("#333333");
     document.body.style.backgroundColor = color;
 
     const descripter_list = [
@@ -31,7 +31,7 @@ function Home() {
     return (
         <div className="Home-Container">
             <div className="Home-Picture-Container">
-                <img src={Wordmark}></img>
+                <img src={Wordmark} alt=""></img>
             </div>
 
             <div className="Home-Text-Container">

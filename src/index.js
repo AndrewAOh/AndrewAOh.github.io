@@ -5,7 +5,7 @@ import './Styles/styles.css'; // Import your styles
 import App from './App/App';
 import reportWebVitals from './Tests/reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import posthog from 'posthog-js'
+// import posthog from 'posthog-js'
 import { PostHogProvider } from 'posthog-js/react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -1,25 +1,25 @@
 // IMPORT STATEMENTS
-import React, { useState, useEffect  } from "react";
+import { useState  } from "react";
 import '../project_styles.css';
-import Lightbox from "yet-another-react-lightbox";
+// import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+// import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
-import Captions from "yet-another-react-lightbox/plugins/captions";
+// import Captions from "yet-another-react-lightbox/plugins/captions";
 import "yet-another-react-lightbox/plugins/captions.css";
 
 // Import pictures
 import ProjectPicture from "../../Pictures/Project_Cards/Swing-Decision-Analysis.png"
 
 function SwingDecision() {
-    const [color, changeColor] = useState("#ffffff");
+    const [color] = useState("#ffffff");
     document.body.style.backgroundColor = color;
 
-    const [open, setOpen] = React.useState(false);
-    const gallerySlides = [
-        // {src: Pic1, description:"Description"},
-        // {src: Pic2, description:"Description"},
-    ];
+    // const [open, setOpen] = React.useState(false);
+    // const gallerySlides = [
+    //     // {src: Pic1, description:"Description"},
+    //     // {src: Pic2, description:"Description"},
+    // ];
 
     return (
         <div className="Project-Page">
@@ -32,7 +32,7 @@ function SwingDecision() {
             <div className="Project-Content">
                 <div className="Picture-Side-Container">
                     <div className="Picture-Container">
-                        <img className="Project-Picture" src={ProjectPicture} alt="Project Picture"></img>
+                        <img className="Project-Picture" src={ProjectPicture} alt="Project Card"></img>
                     </div>
                     {/* <div className="Link-Gallery-Container">
                         <div className="Gallery-Container">
@@ -56,7 +56,7 @@ function SwingDecision() {
                 </div>
 
                 <div className="Project-Text-Container">
-                <p>Inspired by a Medium article by the Iowa Baseball Managers that explored <a href="https://medium.com/iowabaseballmanagers/quantifying-swing-decisions-sds-d59ccb84d820" target="_blank" className="hyperlinked">quantifying hitter swing decisions</a>, I set out to apply a similar approach to analyze USC's hitters. In the Swing Decision score, hitters are rewarded for swinging at pitches in the strike zone and penalized for swinging at pitches outside the strike zone.</p>
+                <p>Inspired by a Medium article by the Iowa Baseball Managers that explored <a href="https://medium.com/iowabaseballmanagers/quantifying-swing-decisions-sds-d59ccb84d820" target="_blank" rel="noopener noreferrer" className="hyperlinked">quantifying hitter swing decisions</a>, I set out to apply a similar approach to analyze USC's hitters. In the Swing Decision score, hitters are rewarded for swinging at pitches in the strike zone and penalized for swinging at pitches outside the strike zone.</p>
                 
                 <p>Following their methodology, I created a series of 4 classification models to predict a pitch's likelihood of being a strike, swing, contact, and hard-hit ball. The variables that went into these models were: Pitch Height, Pitch Side, Pitch Speed, Induced Vertical Break, and Horizontal Break. Through extensive testing, I determined that the Random Forest method produced the most accurate results. Once the models were finalized, I used them in conjunction with the formula outlined by the Iowa Baseball Managers to calculate a Swing Decision score for each pitch. These scores enabled the creation of heatmaps to visualize a hitter's decision-making patterns and provided an aggregate value to evaluate their overall performance.</p>
                 

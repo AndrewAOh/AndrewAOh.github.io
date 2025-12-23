@@ -42,7 +42,7 @@ function PlayerReport() {
             <div className="Project-Content">
                 <div className="Picture-Side-Container">
                     <div className="Picture-Container">
-                        <img className="Project-Picture" src={ProjectPicture} alt="Project Picture"></img>
+                        <img className="Project-Picture" src={ProjectPicture} alt="Project Card"></img>
                     </div>
                     <div className="Link-Gallery-Container">
                         <div className="Gallery-Container">

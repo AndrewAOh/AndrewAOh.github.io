@@ -23,7 +23,7 @@ function About() {
 
             <div className="About-Content">
                 <div className="Picture-Container">
-                    <img className="About-Picture" src={cellPicture} alt="About Picture"></img>
+                    <img className="About-Picture" src={cellPicture} alt="About"></img>
                 </div>
 
                 <div className="About-Text-Container">

@@ -19,7 +19,7 @@ function Header() {
     <header className="header">
       <div className="header-content">
         <div className="logo">
-          <Link to="/" onClick={() => changeColor("#333333")}><img src={logo}></img></Link>
+          <Link to="/" onClick={() => changeColor("#333333")}><img src={logo} alt=""></img></Link>
         </div>
         <div className="hamburger" onClick={toggleMenu}>
           {isMenuOpen ? (

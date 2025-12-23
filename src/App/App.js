@@ -38,8 +38,6 @@ import { useEffect } from 'react';
 import {
   Routes, 
   Route,
-  // Link,
-  BrowserRouter as Router,
   useLocation
 } from "react-router-dom";
 

@@ -1,5 +1,5 @@
 // IMPORT STATEMENTS
-import React, { useState, useEffect  } from "react";
+import React, { useState  } from "react";
 import '../project_styles.css';
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -14,7 +14,7 @@ import Pic1 from "../../Pictures/Project_Pictures/Transfer1.png"
 import Pic2 from "../../Pictures/Project_Pictures/Transfer2.png"
 
 function TransferPortal() {
-    const [color, changeColor] = useState("#ffffff");
+    const [color] = useState("#ffffff");
     document.body.style.backgroundColor = color;
 
     const [open, setOpen] = React.useState(false);
@@ -34,7 +34,7 @@ function TransferPortal() {
             <div className="Project-Content">
                 <div className="Picture-Side-Container">
                     <div className="Picture-Container">
-                        <img className="Project-Picture" src={ProjectPicture} alt="Project Picture"></img>
+                        <img className="Project-Picture" src={ProjectPicture} alt="Project Card"></img>
                     </div>
                     <div className="Link-Gallery-Container">
                         <div className="Gallery-Container">

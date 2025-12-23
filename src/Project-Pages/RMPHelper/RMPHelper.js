@@ -38,7 +38,7 @@ function RMPHelper() {
             <div className="Project-Content">
                 <div className="Picture-Side-Container">
                     <div className="Picture-Container">
-                        <img className="Project-Picture" src={RMP} alt="Project Picture"></img>
+                        <img className="Project-Picture" src={RMP} alt="Project Card"></img>
                     </div>
                     <div className="Link-Gallery-Container">
                         <div className="Link-Container">
