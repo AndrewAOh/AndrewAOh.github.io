@@ -3,6 +3,14 @@
     font-weight: 275;
 }
 
+.Project-Header{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.25rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
 .Title-Divider {
     margin-top: 15px;
     margin-bottom: 30px;

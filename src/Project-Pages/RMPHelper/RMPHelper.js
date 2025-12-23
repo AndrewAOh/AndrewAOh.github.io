@@ -45,6 +45,7 @@ function RMPHelper() {
                             <button 
                                 className="Link-Button" 
                                 onClick={() => window.open("https://chromewebstore.google.com/detail/rmp-grade-helper/dgblfliiapggebfnmdihgohikalomgfo", "_blank")}
+                                style={{cursor: 'pointer'}}
                             >
                                 Link
                             </button>

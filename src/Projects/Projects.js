@@ -9,7 +9,9 @@ import Tabs from '@mui/material/Tabs';
 // Import Project Cards -- Data
 import HitterPredictions from "../Pictures/Project_Cards/advanced-hitter-pred-card.png"
 import CASProject from "../Pictures/Project_Cards/CAS-project.png"
+import CAS2025 from "../Pictures/Project_Cards/CAS_2025.png"
 import NBAPred from "../Pictures/Project_Cards/NBA-Game-Outcome-Projection.png"
+import CineScore from "../Pictures/Project_Cards/CineScore.png"
 import LocationPlus from "../Pictures/Project_Cards/Location+.png"
 import StuffPlus from "../Pictures/Project_Cards/Stuff+.png"
 import PitchType from "../Pictures/Project_Cards/Pitch-Type-Identification.png"
@@ -46,6 +48,8 @@ function Projects() {
         { title: "Scouting Report Data Dashboard", link: "/projects/Scouting-Report-Data-Dashboard", picture: ScoutingReport},
         { title: "Swing Decision Analysis", link: "/projects/Swing-Decision-Analysis", picture: SwingDecision},
         { title: "Chemical Reaction Component Recognition", link: "/projects/Chemical-Reaction-Component-Recognition", picture: CASProject},
+        { title: "LifeScience Entity Recognition", link: "/projects/GenAI-LifeScience-Recognition", picture: CAS2025},
+        { title: "CineScore Movie Sentiment Analysis", link: "/projects/CineScore", picture: CineScore},
     ];
 
     const softwareProjects = [

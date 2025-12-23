@@ -42,6 +42,7 @@ function PostExchange() {
                             <button 
                                 className="Link-Button" 
                                 onClick={() => window.open("https://postexchange.icytools.cn/", "_blank")}
+                                style={{cursor: 'pointer'}}
                             >
                                 Link
                             </button>

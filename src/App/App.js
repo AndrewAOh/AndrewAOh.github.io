@@ -29,6 +29,8 @@ import PlayerReport from "../Project-Pages/PlayerReport/PlayerReport"
 import ScoutingReport from "../Project-Pages/ScoutingReport/ScoutingReport"
 import SwingDecision from "../Project-Pages/SwingDecision/SwingDecision"
 import TransferPortal from "../Project-Pages/TransferPortal/TransferPortal"
+import LifeScience from "../Project-Pages/LifeScience/LifeScience"
+import CineScore from "../Project-Pages/CineScore/CineScore"
 
 // React Imports
 import ReactDOM from "react-dom/client";
@@ -71,6 +73,8 @@ const usePageTitle = () => {
       '/projects/Scouting-Report-Data-Dashboard': 'Andrew Oh | Projects',
       '/projects/Swing-Decision-Analysis': 'Andrew Oh | Projects',
       '/projects/projects/Chemical-Reaction-Component-Recognition': 'Andrew Oh | Projects',
+      '/projects/projects/GenAI-LifeScience-Recognition': 'Andrew Oh | Projects',
+      '/projects/projects/CineScore': 'Andrew Oh | Projects',
     };
 
     const title = routeToTitleMap[location.pathname] || 'Andrew Oh';
@@ -111,6 +115,8 @@ function App() {
           <Route path="/Projects/Pitcher-Location+" element={<LocationPlus />} />
           <Route path="/Projects/Scouting-Report-Data-Dashboard" element={<ScoutingReport />} />
           <Route path="/Projects/Swing-Decision-Analysis" element={<SwingDecision />} />
+          <Route path="/Projects/CineScore" element={<CineScore />} />
+          <Route path="/Projects/GenAI-LifeScience-Recognition" element={<LifeScience />} />
         </Routes>
       </div>
       <Footer/>
